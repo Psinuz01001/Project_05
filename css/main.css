@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(../img/wallpaperbetter.com_1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  flex-direction: column;
+}
+
+.card {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  padding: 30px 30px;
+  color: rosybrown;
+  font-size: 50px;
+  text-align: center;
+  background-color: transparent;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.matched {
+  background-color: purple;
+}
+
+.reset-button {
+  padding: 50px 50px;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 40px;
+  color: yellow;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.reset-button:hover {
+  background-color: royalblue;
+}
+
+.timer-container {
+  margin-top: 10px;
+}
+
+#timer {
+  font-size: 5rem;
+  color: royalblue;
+  font-family: 'Pixelify Sans', sans-serif;
+}
